@@ -17,6 +17,14 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new HTMLWebpackPlugin({ chunks: ['app'], template: 'index.html' }),
+		new HTMLWebpackPlugin({
+			chunks: ['app', 'vendors~app'],
+			template: 'index.html',
+		}),
 	],
+	optimization: {
+		splitChunks: {
+			chunks: 'all',
+		},
+	},
 }
