@@ -1,0 +1,10 @@
+{
+	"extends": "airbnb",
+	"rules": {
+		"semi": ["error", "never"],
+		"no-tabs": "off",
+		"indent": ["error", "tab"],
+		"react/jsx-indent": [true, "tab"],
+		"react/jsx-indent-props": [true, "tab"]
+	}
+}
