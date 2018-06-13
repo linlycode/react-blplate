@@ -1,4 +1,5 @@
 const path = require('path')
+const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
 	mode: 'development',
@@ -15,4 +16,7 @@ module.exports = {
 			{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
 		],
 	},
+	plugins: [
+		new HTMLWebpackPlugin({ chunks: ['app'], template: 'index.html' }),
+	],
 }
