@@ -1,0 +1,10 @@
+{
+	"name": "react-blplate",
+	"version": "1.0.0",
+	"description": "A React boilerplate",
+	"main": "src/app.js",
+	"repository": "https://github.com/linlycode/react-blplate.git",
+	"author": "linly <linlycode@gmail.com>",
+	"license": "MIT",
+	"private": false
+}
