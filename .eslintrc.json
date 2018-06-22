@@ -9,6 +9,6 @@
 		"indent": ["error", "tab"],
 		"react/jsx-indent": [true, "tab"],
 		"react/jsx-indent-props": [true, "tab"],
-		"react/jsx-filename-extension": "never"
+		"react/jsx-filename-extension": false
 	}
 }
