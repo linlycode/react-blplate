@@ -1,0 +1,27 @@
+module.exports = {
+	env: { node: true, es6: true },
+	extends: [
+		'eslint:recommended',
+	],
+	rules: {
+		'no-console': 'warn',
+		'indent': ['error', 'tab', { SwitchCase: 1 }],
+		'no-tabs': 'off',
+		'semi': ['warn', 'never'],
+		'no-multi-spaces': 'warn',
+		'comma-spacing': 'warn',
+		'keyword-spacing': 'warn',
+		'space-before-blocks': 'warn',
+		'space-in-parens': ['warn', 'never'],
+		'space-infix-ops': 'warn',
+		'object-curly-spacing': ['warn', 'always'],
+		'array-bracket-spacing': ['warn', 'never'],
+		'quotes': ['warn', 'single'],
+		'object-curly-newline': ['warn', { consistent: true }],
+		'array-bracket-newline': ['warn', 'consistent'],
+		'quote-props': ['warn', 'consistent-as-needed', { numbers: true }],
+		'comma-dangle': ['warn', 'always-multiline'],
+		'eqeqeq': ['warn', 'always'],
+		'class-methods-use-this': 'warn',
+	},
+}
